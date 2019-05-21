@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_save_reminder"
+        android:orderInCategory="100"
+        android:title="Save"
+        android:icon="@drawable/ic_done"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="50"
+        android:title="Cancel"
+        android:icon="@drawable/ic_cancel"
+        app:showAsAction="always" />
+</menu>

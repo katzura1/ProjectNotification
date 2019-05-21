@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <!--
+    this is layout for each row custom list
+    -->
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="2018/10/18 20:45"
+        android:textColor="@color/mdtp_ampm_text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nama_obat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tgl"
+        android:layout_marginTop="5dp"
+        android:text="Obat A, Obat B"
+        android:textColor="@color/mdtp_ampm_text_color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/nama_obat"
+        android:layout_alignBottom="@id/nama_obat"
+        android:layout_alignParentRight="true"
+        android:text="Senin"
+        android:textColor="@color/mdtp_ampm_text_color"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acer.projectnotification">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activityPackage.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activityPackage.ExampleNotificationActivity"
+            android:label="Main" />
+        <activity
+            android:name=".activityPackage.MainActivity"
+            android:label="@string/title_activity_main"
+            android:parentActivityName=".activityPackage.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activityPackage.TambahActivity"
+            android:label="@string/title_activity_tambah_reminder"
+            android:parentActivityName=".activityPackage.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name=".classPackage.AlarmReceiver" />
+        <receiver android:name=".classPackage.BootReceiver" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activityPackage.EditActivity"
+            android:label="@string/title_activity_edit"
+            android:parentActivityName=".activityPackage.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activityPackage.DialogActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activityPackage.MenuActivity" />
+        <!-- Declare  Alarm Sound Service here -->
+        <service android:name=".classPackage.AlarmSoundService" />
+
+        <activity
+            android:name=".activityPackage.HistoriActivity"
+            android:label="History Alarm"
+            android:parentActivityName=".activityPackage.MainActivity" />
+        <activity
+            android:name=".activityPackage.EdukasiActivity"
+            android:label="Edukasi"
+            android:parentActivityName=".activityPackage.MenuActivity" />
+        <activity
+            android:name=".activityPackage.DetailEdukasiActivity"
+            android:parentActivityName=".activityPackage.AboutActivity" />
+        <activity
+            android:name=".activityPackage.ListObatActivity"
+            android:parentActivityName=".activityPackage.MenuActivity" />
+        <activity
+            android:name=".activityPackage.DetailObatActivity"
+            android:parentActivityName=".activityPackage.ListObatActivity" />
+        <activity
+            android:name=".activityPackage.AboutActivity"
+            android:parentActivityName=".activityPackage.MenuActivity"/>
+    </application>
+
+</manifest>

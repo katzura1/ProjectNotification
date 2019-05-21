@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AWR</string>
+    <string name="channel_name">my_channel_01</string>
+    <string name="channel_description">channel_description</string>
+    <string name="title_activity_main">Alarm Obat</string>
+    <string name="title_activity_tambah_reminder">Tambah Pengingat</string>
+    <string name="no_reminders">Klik tombol tambah dibawah untuk menambah pengingat!</string>
+    <string name="title_activity_edit">Edit Pengingat</string>
+    <string name="isi_pengertian">
+        Diabetes melitus, DM (bahasa Yunani: διαβαίνειν, diabaínein, tembus atau pancuran air) (bahasa Latin: mellitus, rasa manis) yang juga dikenal di Indonesia dengan istilah penyakit kencing manis adalah kelainan metabolik yang disebabkan oleh banyak faktor seperti kurangnya insulin atau ketidakmampuan tubuh untuk memanfaatkan insulin (Insulin resistance), dengan simtoma berupa hiperglikemia kronis dan gangguan metabolisme karbohidrat, lemak dan protein,
+    </string>
+    <string name="isi_penyebab">
+        Ada beberapa faktor penyebab penyakit diabetes melitus pada umumnya :
+        \n\u2022 <b>Faktor Genetik</b>\n
+Penyebab diabetes yang bisa terjadi salah satu nya yaitu dikarenakan oleh ada nya faktor genetik. Karena memiliki keluarga yang juga menderita penyakit diabetes maka dari memiliki kemungkinan besar untuk menderita penyakit diabetes. Oleh sebab itu jika memiliki riwayat penyakit diabetes maka ada kemungkinan juga untuk menderita penyakit diabetes jika tidak menjaga kesehatan dan juga kadar gula darah.
+        \n\u2022 <b>Faktor Berat badan</b>\n
+        Berat badan memang bisa mempengaruhi kesehatan, karena berat badan pun bisa menjadi suatu penyakit, dan penyakit diabetes pun bisa terjadi dikarenakan oleh berat badan. Memiliki berat badan yang besar atau pun berlebihan memiliki kemungkinan untuk menderita penyakit diabetes salah satu nya. oleh sebab itu penyebab diabetes bisa di sebabkan oleh berat badan.
+        \n\u2022 <b>Faktor Makanan</b>\n
+        Penyebab diabetes pun bisa terjadi dari makanan yang di konsumsi, jika sering mengkonsumsi makan makanan yang tidak sehat seperti hal nya makanan yang mengandung lemak tinggi atau pun memiliki kadar manis dari gula yang banyak maka bisa menjadi penyebab diabetes. Oleh sebab itu jaga asupan makanan yang baik agar tidak mengalami naik nya kadar gula darah.
+        \n\u2022 <b>Faktor Merokok</b>\n
+        Rokok merupakan sumber penyakit, dan rokok pun bisa menjadi penyebab diabetes juga oleh sebab itu mengapa penggunaan rokok itu di larang dan tidak baik untuk di gunakan.
+    </string>
+</resources>
